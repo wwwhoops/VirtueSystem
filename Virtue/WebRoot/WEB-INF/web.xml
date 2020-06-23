@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Virtue</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Listservlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.Listservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Listservlet</servlet-name>
+    <url-pattern>/Listservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>SelfServlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.SelfServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelfServlet</servlet-name>
+    <url-pattern>/SelfServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>Addservlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.Addservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Addservlet</servlet-name>
+    <url-pattern>/Addservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+    <servlet>
+    <servlet-name>AddOutEvaservlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.AddOutEvaservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddOutEvaservlet</servlet-name>
+    <url-pattern>/AddOutEvaservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>Alterservlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.Alterservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Alterservlet</servlet-name>
+    <url-pattern>/Alterservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Delservlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.Delservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delservlet</servlet-name>
+    <url-pattern>/Delservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>updataservlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.updataservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updataservlet</servlet-name>
+    <url-pattern>/updataservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>viewservlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.viewservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>viewservlet</servlet-name>
+    <url-pattern>/viewservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegistUser</servlet-name>
+    <servlet-class>cn.Taylor.Servlet.RegistUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.Taylor.Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistUser</servlet-name>
+    <url-pattern>/RegistUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegistPublicUser</servlet-name>
+    <servlet-class>cn.TaylorPublic.Servlet.RegistPublicUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginPublicServlet</servlet-name>
+    <servlet-class>cn.TaylorPublic.Servlet.LoginPublicServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistPublicUser</servlet-name>
+    <url-pattern>/RegistPublicUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginPublicServlet</servlet-name>
+    <url-pattern>/LoginPublicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Addevaservlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.Addevaservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Addevaservlet</servlet-name>
+    <url-pattern>/Addevaservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>Addevaservlet1</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.Addevaservlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Addevaservlet1</servlet-name>
+    <url-pattern>/Addevaservlet1</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>Evalistservlet</servlet-name>
+    <servlet-class>cn.Evaluation.Servlet.Evalistservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Evalistservlet</servlet-name>
+    <url-pattern>/Evalistservlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>cn.Taylor.Servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/IndexServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+      <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>cn.TaylorPublic.Servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+
+  
+</web-app>
